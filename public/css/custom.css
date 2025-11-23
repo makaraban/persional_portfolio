@@ -1,0 +1,30 @@
+html {
+            scroll-behavior: smooth;
+        }
+        .academic-bg {
+            background: linear-gradient(135deg, #0ea5e9 0%, #0369a1 100%);
+        }
+        .text-gradient {
+            background: linear-gradient(135deg, #0ea5e9 0%, #8b5cf6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .skill-bar {
+            transition: width 1.5s ease-in-out;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 2px;
+            background: #e2e8f0;
+        }
