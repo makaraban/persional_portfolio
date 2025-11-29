@@ -19,3 +19,15 @@
   #  publish = "dist" # Folder with the static content for _redirect file
 
   ## more info on configuring this file: https://ntl.fyi/file-based-build-config
+[[plugins]]
+  package = "@netlify/plugin-sitemap"
+[[plugins]]
+  package = "@netlify/plugin-lighthouse"
+[[plugins]]
+  package = "netlify-plugin-image-optim"
+[[plugins]]
+  package = "netlify-plugin-minify-html"
+[[plugins]]
+  package = "netlify-plugin-submit-sitemap"
+[[plugins]]
+  package = "netlify-plugin-inline-critical-css"
