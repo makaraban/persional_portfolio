@@ -1,4 +1,5 @@
-<script></script>
+<script>
+</script>
 
 <template>
     <!-- Work Experience Section -->
