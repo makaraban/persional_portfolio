@@ -1,3 +1,0 @@
-VITE_APP_API = https://api.github.com
-VITE_APP_TITLE = BAN MAKARA PORTFOLIO
-NODE_ENV = dev
