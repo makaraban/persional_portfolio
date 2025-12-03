@@ -1,4 +1,5 @@
 <script setup>
+
   import NavigationPage from '@/components/NavigationPage.vue';
   import FooterPage from '@/components/FooterPage.vue';
   import BackToTop from '@/components/BackToTop.vue';

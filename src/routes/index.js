@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
+//Lazy load components
 const Home = () => import('@/views/HomePage.vue')
 const About = () => import('@/views/AboutPage.vue')
 const Academic = () => import('@/views/AcademicPage.vue')
